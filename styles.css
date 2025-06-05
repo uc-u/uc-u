@@ -1,0 +1,66 @@
+.HeaderStyle {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: lightcoral;
+}
+
+.nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav > a{
+    background-color:  lightcoral;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.backgroundContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundImage {
+    width: 100%;
+    height: auto;
+}
+
+
+.homepageSummary {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.homepageSummary > div {
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.homepageSummary > p {
+    width: 75%;
+}
+
+#characterPage {
+    display: flex;
+    justify-content: center;
+}
+
+.CharactersGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.characterTmage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
